@@ -15,6 +15,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.unit.sp
+
 
 @Composable
 fun WelcomeCard(modifier: Modifier = Modifier) {
@@ -42,7 +46,9 @@ fun WelcomeCard(modifier: Modifier = Modifier) {
             OutlinedTextField(
                 value = movieName,
                 onValueChange = { movieName = it },
-                label = { Text("Movie Name") }
+                label = { Text("Movie Name") },
+                shape = RoundedCornerShape(16.dp),
+                textStyle = TextStyle(fontSize = 20.sp)
             )
         }
     }
