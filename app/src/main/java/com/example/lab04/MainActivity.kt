@@ -20,9 +20,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             Lab04Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    WelcomeCard(
                         modifier = Modifier.padding(innerPadding)
+                    )
                     )
                 }
             }
