@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     WelcomeCard(
                         modifier = Modifier.padding(innerPadding)
                     )
-                    )
+
                 }
             }
         }
