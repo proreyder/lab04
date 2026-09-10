@@ -37,10 +37,7 @@ fun WelcomeCard(modifier: Modifier = Modifier) {
         Column(
             modifier = Modifier.padding(16.dp)
         ) {
-            Text(
-                text = "Bienvenido - colaborador Marc",
-                style = MaterialTheme.typography.headlineSmall
-            )
+            text = "Bienvenido - Reyder y colaborador simulado",
 
             Spacer(modifier = Modifier.height(8.dp))
 
