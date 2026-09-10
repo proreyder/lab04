@@ -38,7 +38,7 @@ fun WelcomeCard(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(16.dp)
         ) {
             Text(
-                text = "Welcome to the Course!",
+                text = "Bienvenido - Reyder",
                 style = MaterialTheme.typography.headlineSmall
             )
 
